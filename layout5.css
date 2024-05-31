@@ -1,0 +1,271 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 60%;
+    min-height: 2000px;
+    margin: auto;
+    border: 2px solid black;
+}
+.header
+{
+    width: 100%;
+    height: 60px;
+}
+.logo
+{
+    width: 40%;
+    height: 60px;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    float: left;
+    
+}
+.logo h1{
+    font-size: bold;
+    text-align: center;
+    padding-top: 10px;
+} 
+.menu
+{
+    width: 48%;
+    height: 60px;
+    /* border: 2px solid black; */
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    font-size:larger;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 15px;
+}
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.slider
+{
+    width: 100%;
+    height: 550px;
+    border: 2px solid red;
+    margin-top: 20px;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-text{
+
+    position: absolute;
+    top: 40%;
+    right: 39%;
+    justify-content: center;
+    display: grid;
+}
+.slider h1{
+    margin-left: 20px;;
+    /* font-size: vh; */
+    /* text-shadow:  black  10px 20px 5px; */
+     /* color: black; */
+}
+
+/* .slider P{
+    font-size: vh; */
+    /* text-shadow:  black  10px 20px 5px; */
+    /* color: black; */
+    /* padding-right: 15px; */
+    /* text-align: center;
+} */ 
+
+.banner-text button
+{
+    margin-top: 15px;
+    background-color: black;
+    height: 30px;
+    width: 150px;
+    border: 2px solid black;
+    color: white;
+    margin-left: 62px;
+    /* padding-right: 100px; */
+}
+
+.banner-text p{
+    font-size: x-large;
+    margin-right: 10px;
+}
+
+.produ
+{
+    /* padding-top: 10px; */
+    margin-top: 10px;
+    width: 100%;
+    min-height: 400px;
+    border: 2px solid green;
+}
+.box
+{
+    width: 32%;
+    min-height: 400px;
+    border: 2px solid black;
+   float: left;
+   margin-right: 10px;
+}
+.imgs
+{
+    width: 40%;
+    height: 100px;
+    border: 2px solid black;
+    margin: auto;
+    /* background-color: yellow; */
+}
+.imgs img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.heading h3{
+    margin-top: 40px;
+    padding-left: 70px;
+}
+
+.para p{
+    margin-top: 20px;
+    text-align: justify;
+    padding: 20px;
+
+}
+.com
+{
+    width: 100%;
+    min-height: 475px;
+    border: 2px solid black;
+}
+.head h1{
+    margin-top: 10px;
+    margin-left:30%
+}
+.body
+{
+    width: 100%;
+    min-height: 100px;
+    border: 2px solid black;
+}
+.body p{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+.back{
+    width: 100%;
+    height:50px;
+}
+/* .back img{
+    width: 100%;
+    height: 100%;
+} */
+.four
+{
+    margin-top: 10px;
+    width: 100%;
+    min-height: 300px;
+    border: 2px solid black;
+}
+.pilar
+{
+    width: 23%;
+    height: 300px;
+    border: 2px solid black;
+    float: left;
+    margin-right: 18px;
+}
+.pilar h2{
+    text-align: center;
+}
+.pilar hr{
+    margin: 10px;
+    color: blue;
+}
+.pilar p{
+    margin: 10px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.pilar button{
+    /* color: blue; */
+    margin-top: 15px;
+    background-color: black;
+    height: 30px;
+    width: 150px;
+    border: 2px solid black;
+    color: white;
+    margin-left: 35px;
+}
+.pilar button:hover
+{
+    background-color: blue;
+}
+.pilar img{
+    width: 100%;
+    height: 100%;
+}
+.footer
+{
+    border: 2px solid black;
+    width: 100%;
+    min-height: 200px;
+    margin-top: 10px;
+}
+.footer h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.footer hr{
+    margin-top: 20px;
+    margin-left: 280px;
+    margin-right: 280px;
+    color: blue;
+}
+.footer p{
+    text-align: justify;
+    margin: 20px;
+}
+.footer button
+{
+    
+    margin-top: 15px;
+    background-color: black;
+    height: 30px;
+    width: 150px;
+    border: 2px solid black;
+    color: white;
+    margin-left: 35px;
+    margin-left: 40%;
+}
+button:hover{
+    background-color: aqua;
+}
+.end{
+    margin-top: 10px;
+    width: 100%;
+    min-height: 300px;
+    border: 2px solid black;
+}
+.info{
+    width: 22%;
+    height:100% ;
+    border: 2px solid black;
+}
+.end p{
+    text-align: justify;
+    margin: 10px;
+
+}

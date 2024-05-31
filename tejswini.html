@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.box{
+			margin-top: 200px;
+			height: 220px;
+			background-image: linear-gradient(yellow 80%,gray 80%);
+			position: relative;
+		}
+		.box img{
+			position: absolute;
+			left: 0%;
+			bottom: 10px;
+			animation-name: move_circle;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+
+		}
+		@keyframes move_circle{
+			0%{left: 0%;transform:scaleX(1);}
+			50%{left: 80%;transform:scaleX(1);}
+			51%{transform:scaleX(-1);}
+			100%{left: 0%;transform:scaleX(-1);}
+		}
+	</style>
+</head>
+<body>
+<div class="box">
+		<img src="https://c8.alamy.com/comp/W71AFN/army-soldier-equipped-infantryman-airsoft-player-in-camouflage-battle-uniform-helmet-and-tactical-radio-headset-jumping-running-with-assault-rifle-in-hand-studio-shoot-isolated-on-white-background-W71AFN.jpg" width="300px">
+	</div>
+</body>
+</html>

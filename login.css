@@ -1,0 +1,64 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient( 90deg,#4e54c8,#8f94fb);
+}
+.container
+{
+    width: 30%;
+    min-height: 300px;
+    border-bottom: 4px solid green;
+    border-top: 4px solid orange;
+    margin:140px auto;
+    background-color: white;
+   border-top-left-radius: 25%;
+   border-bottom-right-radius: 25%;
+   /* border-top:none; */
+}
+.header
+{
+    text-align: center;
+}
+.box{
+    margin-left: 30px;
+}
+.box input[type=text]{
+    margin-top: 20px;
+    min-height: 25px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    background-image: url(/images/11185875_user_person_profile_avatar_people_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.box input[type=password]{
+    margin-top: 20px;
+    min-height: 25px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-image: url(/images/1564520_code_open_password_icon.png);
+    background-repeat: no-repeat;
+    padding-left:30px;
+}
+input[type=submit]
+{
+    color: white;
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-left:40% ;
+}
+input[type=submit]:hover
+{
+    background-color: orange;
+}

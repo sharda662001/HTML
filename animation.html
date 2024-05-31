@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            margin-top: 200px;
+            height: 220px;
+            background-image: linear-gradient(yellow 80%,gray 20%);
+            position: relative;
+        }
+        .box img{
+            position: absolute;
+            left: 0%;
+            bottom: 10px;
+            animation-name: move_circle;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes move_circle{
+            0%{left: 0%;transform: scaleX(1);}
+            50%{left: 0%;transform: scaleX(1);}
+            51%{transform: scaleX(-1);}
+            100%{left: 0%;transform: scaleX(-1);}
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="https://image.similarpng.com/very-thumbnail/2020/09/A-man-ride-sports-bicycle-on-transparent-background-PNG.png" width="300px">
+
+    </div>
+</body>
+</html>

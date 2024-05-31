@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.box{
+			margin-top: 200px;
+			height: 260px;
+			background-image: linear-gradient(yellow 70%,gray 30%);
+			position: relative;
+		}
+		.box img{
+			position: absolute;
+			left: 0%;
+			bottom: 10px;
+			animation-name: move_circle;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+
+		}
+		@keyframes move_circle{
+			0%{left: 0%;transform:scaleX(1);}
+			50%{left: 80%;transform:scaleX(1);}
+			51%{transform:scaleX(-1);}
+			100%{left: 0%;transform:scaleX(-1);}
+		}
+	</style>
+</head>
+<body>
+<div class="box">
+		<img src="http://pluspng.com/img-png/ride-a-motorcycle-png-jae-motorbiking-by-space-drive-overdose-1024.png" width="400px">
+	</div>
+	<!-- https://assets.stickpng.com/images/580b585b2edbce24c47b2beb.png -->
+</body>
+</html>

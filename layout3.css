@@ -1,0 +1,158 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    min-height: 300px;
+    
+    color: black;
+    margin: auto;
+    
+
+}
+.logo{
+    width: 20%;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px;
+    color: white;
+    float: left;
+}
+.logo h1{
+    padding: 10px;
+    color: black;
+}
+.menu{
+    width: 50%;
+    height: 60px;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 15px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    padding-top: 10px;
+    line-height: 10px;
+}
+.follow{
+    width: 25%;
+    height: 60px;
+    background-color: black;
+    color:white;
+    float: left;
+    margin-top: 10px;
+}
+
+.menu:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slider{
+    width: 100%;
+    min-height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.slider img{
+    width: 100%;
+    height: 300px;
+}
+.product{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 10px;
+}
+.box1{
+    width: 32%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: gray;
+    float: left;
+}
+
+.box2{
+    width: 32%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: gray;
+    
+    float: left;
+}
+.box3{
+    width: 32%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: gray;
+    float: left;
+}
+.box2:nth-child(2)
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box1:nth-child(1)
+{
+    margin-left: 10px;
+}
+.box1 img{
+    width: 100%;
+    height: 300px;
+}
+.box2 img{
+    width: 100%;
+    height: 300px;
+}
+.box3 img{
+    width: 100%;
+    height: 300px;
+}
+.contect{
+    width: 100%;
+    min-height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 10px;
+}
+.ad{
+    width: 20%;
+    height: 300px;
+    
+    margin: 10px;
+    float: left;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.text{
+    width: 76%;
+    min-height: 300px;
+    /* border: 2px solid black; */
+    margin-left: 10px;
+    float: right;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.text p{
+    text-align: justify;
+    padding: 10px;
+   
+}
+.text h3{
+    padding: 10px;
+}
+.text img{
+    width: 100%;
+    height: 250px;
+}
+.ad marquee{
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
